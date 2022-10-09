@@ -1,0 +1,11 @@
+{ 
+  "compilerOptions": {
+    "experimentalDisableTemplateSupport": true,
+    "jsx": "preserve"
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
